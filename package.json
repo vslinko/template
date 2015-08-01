@@ -1,0 +1,22 @@
+{
+  "name": "PROJECT_NAME",
+  "version": "0.1.0",
+  "description": "PROJECT_SHORT_DESCRIPTION",
+  "keywords": [],
+  "homepage": "https://github.com/vslinko/PROJECT_NAME",
+  "bugs": {
+    "url": "https://github.com/vslinko/PROJECT_NAME/issues",
+    "email": "vslinko@yahoo.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vyacheslav Slinko",
+    "email": "vslinko@yahoo.com",
+    "url": "https://twitter.com/vslinko"
+  },
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "vslinko/PROJECT_NAME"
+  }
+}
