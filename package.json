@@ -20,9 +20,11 @@
     "url": "vslinko/PROJECT_NAME"
   },
   "scripts": {
-    "lint": "eslint lib"
+    "prepublish": "rm -rf lib && babel -d lib src",
+    "lint": "eslint src"
   },
   "devDependencies": {
+    "babel": "^5.8.20",
     "babel-eslint": "^4.0.5",
     "eslint": "^1.0.0",
     "eslint-config-airbnb": "0.0.7",
