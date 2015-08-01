@@ -21,13 +21,19 @@
   },
   "scripts": {
     "prepublish": "rm -rf lib && babel -d lib src",
-    "lint": "eslint src"
+    "lint": "eslint src test",
+    "coverage": "babel-node ./node_modules/.bin/isparta cover --report text --report html --report lcov ./node_modules/.bin/_mocha",
+    "test": "mocha --compilers js:babel/register"
   },
   "devDependencies": {
     "babel": "^5.8.20",
     "babel-eslint": "^4.0.5",
+    "chai": "^3.2.0",
     "eslint": "^1.0.0",
     "eslint-config-airbnb": "0.0.7",
-    "eslint-plugin-react": "^3.1.0"
+    "eslint-plugin-react": "^3.1.0",
+    "isparta": "^3.0.3",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
   }
 }
